@@ -1,5 +1,6 @@
 # CodvedaInternTask2
 Task 2: Personal Portfolio Website
+
 The Personal Portfolio Website to visit: https://niranjansurve.github.io/CodvedaInternTask2/
 # Personal Portfolio Website
 
@@ -18,3 +19,4 @@ The portfolio is designed to present personal details, technical skills, and pro
 ---
 
 ## 📂 Repository Name
+The Repository Link : https://github.com/NiranjanSurve/CodvedaInternTask2.git
