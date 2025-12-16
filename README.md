@@ -10,6 +10,31 @@ The portfolio is designed to present personal details, technical skills, and pro
 
 ---
 
+## ✨ Features
+- Single-page professional portfolio layout  
+- Sections: Home, About, Skills, Projects, Contact  
+- **Project thumbnails with click-to-open modal popup**  
+- Smooth hover effects and animations  
+- Responsive design for desktop and mobile devices  
+- Clean UI suitable for internship and job profiles  
+
+---
+
+## 🖱 Project Interaction
+- Projects are displayed as **image thumbnails**
+- Clicking a thumbnail opens a **popup modal** with:
+  - Project name
+  - Short description
+  - Technologies used
+  - GitHub repository link
+
+---
+
+## 📱 Responsive Design
+The website is fully responsive and adapts to different screen sizes using **CSS media queries**, ensuring a smooth user experience across devices.
+
+---
+
 ## 🛠 Technologies Used
 - **HTML5** – Structure of the website  
 - **CSS3** – Styling, layout, animations, and responsiveness  
