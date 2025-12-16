@@ -1,0 +1,119 @@
+<!--
+    Task 2:
+            Create a Portfolio Webpage 
+    Description: 
+            Design a personal portfolio page to showcase projects or skills. 
+    Objectives: 
+            Use HTML and CSS to create a single-page layout.
+            Add sections for an introduction, projects, and contact information. 
+            Style the page with custom fonts, colors, and animations.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Niranjan Surve | Web Developer</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<script>
+  function openModal(id) {
+    document.getElementById(id).style.display = "flex";
+  }
+
+  function closeModal(id) {
+    document.getElementById(id).style.display = "none";
+  }
+</script>
+
+<!-- NAVBAR -->
+<nav>
+  <h2>Niranjan</h2>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section id="home" class="hero">
+  <img src="images/profile.png" alt="Profile">
+  <h1>Hello, I'm <span>Niranjan Surve</span></h1>
+  <p>Web Development Intern | Front-End Developer</p>
+  <a href="#projects" class="btn">View My Work</a>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="about">
+  <h2>About Me</h2>
+  <p>
+    I am a passionate Web Development Intern currently working with Codveda Technologies.
+    I enjoy building responsive, user-friendly websites using modern web technologies.
+    My goal is to grow as a full-stack developer and work on real-world projects.
+  </p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="skills">
+  <h2>Technical Skills</h2>
+
+  <div class="skill">
+    <span>HTML</span>
+    <div class="bar"><div class="html"></div></div>
+  </div>
+
+  <div class="skill">
+    <span>CSS</span>
+    <div class="bar"><div class="css"></div></div>
+  </div>
+
+  <div class="skill">
+    <span>JavaScript</span>
+    <div class="bar"><div class="js"></div></div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="projects">
+  <h2>Projects</h2>
+
+  <div class="project-grid">
+
+    <div class="project-card" onclick="openModal('project1')">
+      <img src="images/project1.png" alt="Static Website">
+    </div>
+
+  </div>
+</section>
+
+<!-- PROJECT MODALS -->
+<div id="project1" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('project1')">&times;</span>
+    <h2>Simple Static Website</h2>
+    <p>Multi-page responsive website built using HTML and CSS.</p>
+    <p><strong>Technologies:</strong> HTML, CSS</p>
+    <a href="https://niranjansurve.github.io/CodvedaInternTask1/" target="_blank">View on GitHub</a>
+  </div>
+</div>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+  <h2>Contact Me</h2>
+  <p><i class="fa-solid fa-envelope"></i> example@email.com</p>
+  <p><i class="fa-brands fa-linkedin"></i> www.linkedin.com/in/niranjan-dipak-surve</p>
+  <p><i class="fa-brands fa-github"></i> github.com/NiranjanSurve</p>
+</section>
+
+<footer>
+  <p>© 2025 Niranjan Surve | Web Developer</p>
+</footer>
+
+</body>
+</html>
